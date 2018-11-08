@@ -20,12 +20,14 @@ export class ArticleComponent implements OnInit {
   ngOnInit() {
   }
 
-  voteUp(): void {
+  voteUp(): boolean {
     this.votes++;
+    return false;
   }
 
-  voteDown(): void {
+  voteDown(): boolean {
     this.votes--;
+    return false;
   }
 
 }
