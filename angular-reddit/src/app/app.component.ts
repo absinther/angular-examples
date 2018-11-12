@@ -20,9 +20,9 @@ export class AppComponent {
 
   constructor() {
     this.articles = [
-      new Article('Un', 'localhost', 5),
-      new Article('Deux', '127.0.0.1', 3),
-      new Article('Trois', '196.180.0.1', 1)
+      new Article('Un', 'http://localhost', 5),
+      new Article('Deux', 'http://127.0.0.1', 3),
+      new Article('Trois', 'http://196.180.0.1', 1)
     ];
   }
 
